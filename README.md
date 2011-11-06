@@ -1,0 +1,3 @@
+﻿Nedovršeni kod u C-u koji pretvara s-izraz u stablo cons parova. Svako stablo započinje dummy root cons parom kojem car sadrži NIL, a cdr pokazuje na stablo generirano iz izraza. Dodatno trenutna implementacija najvišu razinu zagrada percipira kao listu pa se na vrhu cons stabla pojavljuje jedan dodatni cons par koji ostatak stabla tretira kao ugnježđeno stablo.
+
+Zadavanje izraza je statičko, definirano kao string unutar koda, ali to se lako može izvući dinamički prema korisniku. Općenito planiram kod staviti na github pa ako tko ima volje može u njega dodati razna poboljšanja uključujući  i generiranje grafa po nekoj od slijedećih specifikacija: [http://graphml.graphdrawing.org/index.html](http://graphml.graphdrawing.org/index.html)
